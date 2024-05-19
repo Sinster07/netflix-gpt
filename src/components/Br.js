@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Header from "./Header";
 
 const Br = () => {
   return (
-    <div>Br</div>
-  )
-}
+    <div>
+      <Header />
+    </div>
+  );
+};
 
-export default Br
+export default Br;
